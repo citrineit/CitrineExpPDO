@@ -20,9 +20,9 @@ To create a new instance of this class, you will need to provide
 
 ```php
   <?php
-	require_once 'CitrinePDO.php';
+	require_once 'CitrineExpPDO.php';
 	//Assuming MySQL
-    $db = CitrineCitrinePDO('localhost', 'myUserName', '12345', 'mydatabase');
+    $db = new CitrineExpPDO('localhost', 'myUserName', '12345', 'mydatabase');
 ```
 
 Using Magic Overloads
